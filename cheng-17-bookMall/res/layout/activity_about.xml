@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  图书商城是国内较早的网上图书销售平台之一。经过14年的发展,树立了国内网上书店的一流品牌、积累了丰富的网站运营、管理经验，成为网上购书的不二选择。"
+     />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  在14年的发展过程中，中国图书网已经成为国内图书品种最齐全的网上书店之一。图书商城的发展目标是：在中国的现实环境下，为读者购书提供最大程度的便利，我们要为爱书人提供一个能够享受淘书乐趣的地方，花很少的钱却能淘到自己想要却在他处找不到的好书。"
+        />
+</LinearLayout>

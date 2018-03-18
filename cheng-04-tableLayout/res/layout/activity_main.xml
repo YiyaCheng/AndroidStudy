@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        >
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_top"
+            android:padding="10dp">
+            <TextView 
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="15sp"
+                android:text="姓名："
+                />
+        </TableRow>
+        
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_middle"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="年龄："
+                android:textSize="15sp" />
+        </TableRow>
+        
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bottom"
+            android:padding="10dp">
+
+            <TextView 
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="联系电话："/>
+            
+        </TableRow>
+        
+    </TableLayout>
+     
+    <Button 
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK"
+        android:textSize="15sp"/>
+</LinearLayout>

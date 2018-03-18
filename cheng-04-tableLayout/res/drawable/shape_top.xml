@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">  
+    <item>  
+        <shape>  
+            <solid android:color="#FFFFFF" />
+            <!-- solid内部填充 -->  
+            <corners android:topLeftRadius="10dp" android:topRightRadius="10dp"/>  
+            <stroke android:width="1dp" android:color="#030303" />
+            <!-- stroke描边 -->  
+        </shape>  
+    </item>  
+    <item android:top="1dp" android:left="1dp" android:right="1dp" android:bottom="1dp">  
+        <shape>  
+            <solid android:color="#FFFFFF" />  
+            <corners android:topLeftRadius="10dp" android:topRightRadius="10dp"/>  
+            <stroke android:width="1dp" android:color="#FFFFFF" />  
+        </shape>  
+    </item>  
+</layer-list>
+

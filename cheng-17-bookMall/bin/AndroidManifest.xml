@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cheng_17_bookmall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.activity.BookListActivity"
+            android:label="@string/title_activity_book_list" >
+        </activity>
+        <activity
+            android:name="com.activity.AddBookActivity"
+            android:label="@string/title_activity_add_book" >
+        </activity>
+        <activity
+            android:name="com.activity.SearchBookActivity"
+            android:label="@string/title_activity_search_book" >
+        </activity>
+        <activity
+            android:name="com.activity.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.activity.UpdateBookActivity"
+            android:label="@string/title_activity_update_book" >
+        </activity>
+        <activity
+            android:name="com.activity.SearchBookListActivity"
+            android:label="@string/title_activity_search_book_list" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">15Android-13-ListViewXml</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="city">
+        <item>南昌</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>郑州</item>
+        <item>杭州</item>
+        <item>武汉</item>
+        <item>深圳</item>
+        <item>成都</item>
+        <item>重庆</item>
+        <item>西安</item>
+    </string-array>
+</resources>

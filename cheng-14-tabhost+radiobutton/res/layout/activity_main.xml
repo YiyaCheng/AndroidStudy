@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@android:id/tabhost">
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <FrameLayout 
+          android:id="@android:id/tabcontent"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+          <!-- 定义第一个标签页的内容 -->
+          <LinearLayout
+              android:id="@+id/ltab1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+              <TextView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="200dp" 
+                  android:textSize="25sp"
+                  android:text="news tab"/>
+          </LinearLayout>
+          
+          <!-- 定义第二个标签页的内容 -->
+          <LinearLayout
+              android:id="@+id/ltab2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+              <TextView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="200dp"
+                  android:textSize="25sp"
+                  android:text="topic tab"/>
+          </LinearLayout>
+          <!-- 定义第三个标签页的内容 -->
+          <LinearLayout
+              android:id="@+id/ltab3"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+              <TextView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="200dp"
+                  android:textSize="25sp"
+                  android:text="picture tab"/>
+          </LinearLayout>
+          
+          <!-- 定义第四个标签页的内容 -->
+          <LinearLayout
+              android:id="@+id/ltab4"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+              <TextView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="200dp"
+                  android:textSize="25sp"
+                  android:text="vote tab"/>
+          </LinearLayout>
+          
+          <LinearLayout
+              android:id="@+id/ltab5"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+              <TextView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginTop="200dp"
+                  android:textSize="25sp"
+                  android:text="comment tab"/>
+          </LinearLayout>
+          
+      </FrameLayout>      
+      
+   <TabWidget 
+    android:id="@android:id/tabs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"/>
+   
+   <RadioGroup 
+       android:id="@+id/rg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:background="@drawable/unclick"
+       >
+       <RadioButton 
+           android:id="@+id/rg_news"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="新闻\n news"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:button="@null"
+           android:layout_weight="1"
+           android:checked="true"
+           android:background="@drawable/radiobutton"
+           />
+       <RadioButton 
+           android:id="@+id/rg_topic"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="话题\n topic"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:button="@null"
+           android:background="@drawable/radiobutton"
+           android:layout_weight="1"/>
+       <RadioButton 
+           android:id="@+id/rg_picture"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="图片\n picture"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:button="@null"
+           android:background="@drawable/radiobutton"
+           android:layout_weight="1"/>
+       <RadioButton 
+           android:id="@+id/rg_vote"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="投票\n vote"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:button="@null"
+           android:background="@drawable/radiobutton"
+           android:layout_weight="1"/>
+       <RadioButton 
+           android:id="@+id/rg_comment"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="跟贴\n comment"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:button="@null"
+           android:background="@drawable/radiobutton"
+           android:layout_weight="1"
+           />
+   </RadioGroup>
+  </LinearLayout>  
+
+
+
+</TabHost>
